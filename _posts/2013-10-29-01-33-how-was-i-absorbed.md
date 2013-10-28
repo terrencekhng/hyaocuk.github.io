@@ -1,5 +1,6 @@
 ---
-How Was I Absorbed
+layout: post
+title: How Was I Absorbed
 ---
 
 What makes me absorbed so much is JavaScript and GitHub. First when I focus on the GitHub I found that
