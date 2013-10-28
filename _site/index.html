@@ -47,6 +47,11 @@
       <section id="main_content">
         <h2>
 <a name="as-far-as-i-could-go-now" class="anchor" href="#as-far-as-i-could-go-now"><span class="octicon octicon-link"></span></a>as far as I could go now!</h2>
+<ul class="posts">
+	    {% for post in site.posts %}
+			      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+						    {% endfor %}
+								  </ul>
       </section>
 
       <footer>
