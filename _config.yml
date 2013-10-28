@@ -2,3 +2,6 @@ safe: true
 lsi: false
 pygment: true
 destination: ./_site
+layouts: ./_layouts
+plguins: ./_plugins
+
