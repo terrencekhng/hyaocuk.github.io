@@ -6,6 +6,7 @@ author: Terence Ng
 
 {{ page.title }}
 =================
+<p class="meta">Oct 29 2013 Guangzhou</p>
 
 What makes me absorbed so much is JavaScript and GitHub. First when I focus on the GitHub I found that
 most of the repositories are mainly written in JavaScript, I think it is owe to the reason that rich
