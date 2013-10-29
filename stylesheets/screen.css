@@ -118,6 +118,10 @@ div.shell {
   margin: 0 auto;
 }
 
+.meta {
+	color: #888;
+	font-size: 3px;
+}
 
 a#forkme_banner {
   position: fixed;
