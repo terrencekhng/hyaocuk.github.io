@@ -118,6 +118,7 @@ div.shell {
   margin: 0 auto;
 }
 
+
 a#forkme_banner {
   position: absolute;
   top: 0;
@@ -408,6 +409,12 @@ ol {
 ul {
   margin: .7em 0;
   padding-left: 1.35em;
+}
+
+ul.posts {
+	font-family: 'Open Sans', Myriad, Calibri, sans-serif;
+	color: #8e939a;
+	font-weight: bold;
 }
 
 ul li {
