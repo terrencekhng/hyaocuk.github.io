@@ -24,6 +24,16 @@
 
 
 <body>
+<div id="fb-root"></div>
+	
+	<script>(function(d, s, id) {
+  	var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
 	<a id="forkme_banner" href="https://github.com/hyaocuk">View on GitHub</a>
 	    <div class="shell">
 	<header>
@@ -57,6 +67,7 @@
 				<span class="left-tail"></span>
 					<span class="right-tail"></span>
 		</span>
+		<div class="fb-follow" data-href="http://www.facebook.com/terence.ng.awesome" data-width="48" data-height="48" data-colorscheme="light" data-layout="box_count" data-show-faces="true"></div>
 		<br />
 		<span class="octocat"></span>
 	</footer>
