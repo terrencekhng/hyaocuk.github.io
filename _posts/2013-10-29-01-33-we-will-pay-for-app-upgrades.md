@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: We’ll Pay for App Upgrades, but Only if They’re Meaningful by Ben Bajarin
 author: Ben Bajarin
 ---
