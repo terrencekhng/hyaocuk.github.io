@@ -10,9 +10,9 @@ author: Ben Bajarin
 <p class="meta">Oct 29 2013 from <a href="http://http://www.time.com/">"Time"</a> </p>
 
 Last week, something interesting happened: My favorite iOS Twitter client, Tweetbot, got a major update. The catch: It wasn’t free.
-<!-- more -->
 
 Apple‘s App Store policies don’t allow developers to charge for upgrades to their apps. Now in general practice, app developers shouldn’t charge for incremental upgrades or bug fixes, but they absolutely should be able to charge for major new upgrades to the features and functionality of their apps.
+<!-- more -->
 
 This is what happened with Tweetbot, and the crew at Tapbots proved that not only should they be allowed to charge for major upgrades, but that people are willing to pay for them.
 
