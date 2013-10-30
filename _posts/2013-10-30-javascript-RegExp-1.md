@@ -9,6 +9,7 @@ title: JavaScript RegExp 类型（1）
 <p class="meta">Oct 30 2013, Guangzhou</p>
 
 最近在学习 JavaScript ，正读到 RegExp 类型，这里写一下这个类型，也当作对这个博客生成系统 <a href="https://github.com/mojombo/jekyll">Jekyll</a> 的练习吧。:P
+<!-- more -->
 
 RegExp 类型是 ECMAScript 来表达正则表达式的一种类型。我们可以这样来创建一个正则表达式：
 
