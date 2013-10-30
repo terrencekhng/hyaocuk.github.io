@@ -29,5 +29,5 @@ But one researcher on the topic, François Grosjean, disagrees that one-parent, 
 
 For parents who cannot make their children “crib bilinguals”, there are, of course, still many reasons to teach children foreign languages, and many benefits. Here, still, time is not on parents’ and teachers’ sides. The earlier children begin the second language, the better they will learn it. Norway has already introduced English in the first year of school, and Denmark is soon to do so. These countries, unlike France, Germany or Spain, have very small languages of their own, so they know language ability is crucial to their future competitiveness. Talk about the “need factor”.
 
-<span class="repost_link">repost from <a href="http://http://www.economist.com/blogs/prospero/2013/10/multilingualism-0">Johnson: Bringing up baby bilingual</a></span>
+<span class="repost_link">repost from <a href="http://www.economist.com/blogs/prospero/2013/10/multilingualism-0">Johnson: Bringing up baby bilingual</a></span>
 
