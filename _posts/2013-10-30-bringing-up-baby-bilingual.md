@@ -3,7 +3,7 @@ layout: post
 title:  Johson, Bringing up baby bilingual
 ---
 
-<div class="page_title"> {{ page.title }} </div>
+{{ page.title }}
 ====================
 
 by <span class="post_author">R.L.G</span> | Berlin

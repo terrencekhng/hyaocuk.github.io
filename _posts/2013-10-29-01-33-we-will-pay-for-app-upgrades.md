@@ -4,7 +4,7 @@ title: We’ll Pay for App Upgrades, but Only if They’re Meaningful by Ben Baj
 author: Ben Bajarin
 ---
 
-<div class="page_title"> {{ page.title }} </div>
+{{ page.title }}
 ================
 
 <p class="meta">Oct 29 2013 from "Time" </p>
