@@ -7,7 +7,7 @@ author: Ben Bajarin
 {{ page.title }}
 ================
 
-<p class="meta">Oct 29 2013 from "Time" </p>
+<p class="meta">Oct 29 2013 from <a href="http://http://www.time.com/">"Time"</a> </p>
 
 Last week, something interesting happened: My favorite iOS Twitter client, Tweetbot, got a major update. The catch: It wasn’t free.
 <!-- more -->
@@ -38,4 +38,4 @@ We’re living through volatile times when it comes to app stores and pricing po
 
 
 
-Read more: http://techland.time.com/2013/10/28/well-pay-for-app-upgrades-but-only-if-theyre-meaningful/#ixzz2j2pkx9mL
+<span class="repost_link">Repost from <a href="http://techland.time.com/2013/10/28/well-pay-for-app-upgrades-but-only-if-theyre-meaningful/#ixzz2j2pkx9mL">We'll pay for app upgrades but only if they're meaningful</a></span>
