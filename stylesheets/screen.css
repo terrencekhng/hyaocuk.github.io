@@ -272,10 +272,18 @@ span.banner-fix {
   top: 19px;
 }
 
+span.post_author {
+	font-family: 'Open Sans', Myriad, Calibri, sans-serif;
+	font-style: italic;
+	font-weight: 18px;
+}
+
 section#main_content {
   z-index: 2;
   padding: 20px 82px 0;
   min-height:185px;
+	text-align: justify;
+	font-family: 'Open Sans', Myriad, Calibri, sans-serif;
 }
 
 /* footer */
