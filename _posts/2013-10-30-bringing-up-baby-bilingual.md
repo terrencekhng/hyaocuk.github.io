@@ -3,8 +3,9 @@ layout: post
 title:  Johson, Bringing up baby bilingual
 ---
 
-{{ page.title }}
+<div class="page_title"> {{ page.title }} </div>
 ====================
+
 by <span class="post_author">R.L.G</span> | Berlin
 
 <p class="meta">repost from <a href="http://http://www.economist.com/">"The Economist"</a> Multilingualism, Oct 29th 2013</p>

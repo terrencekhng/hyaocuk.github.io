@@ -4,7 +4,7 @@ title: How Was I Absorbed
 author: Terence Ng
 ---
 
-{{ page.title }}
+<div class="page_title"> {{ page.title }} </div>
 =================
 <p class="meta">Oct 29 2013 Guangzhou</p>
 
