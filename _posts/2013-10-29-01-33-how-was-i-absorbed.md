@@ -8,7 +8,7 @@ author: Terence Ng
 =================
 <p class="meta">Oct 29 2013 Guangzhou</p>
 
-What makes me absorbed so much is JavaScript and GitHub. First when I focus on the GitHub I found that
+What makes me absorbed so much is JavaScript and GitHub. <!-- more -->First when I focus on the GitHub I found that
 most of the repositories are mainly written in JavaScript, I think it is owe to the reason that rich
 web apps were flourishing and more and more needs of such apps emerged, the old technology such as static
 HTML, non-MVC, over-Flash pages that ture your notebook a heater..., what we really need is something of 

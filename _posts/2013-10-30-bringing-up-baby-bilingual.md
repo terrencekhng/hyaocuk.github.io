@@ -10,6 +10,7 @@ by <span class="post_author">R.L.G</span> | Berlin
 <p class="meta">repost from <a href="http://http://www.economist.com/">"The Economist"</a> Multilingualism, Oct 29th 2013</p>
 
 THIS weekend Johnson enjoyed an American holiday in Berlin: the children's Halloween party held by neighbours, a half-German, half-American couple. Besides mermaid tails, ladybug antennas or monster horns, nearly every one of the nippers at the party had another accessory: a second language.
+<!-- more -->
 
 Johnson’s own nipper is still pre-verbal at nearly 18 months, meaning that every request not immediately understood and satisfied may quickly turn into a piercing shriek. But we take comfort that Johnson, junior, is cognitively just fine. If his language comes a little late, that is probably because, for one thing, he is male, and for another, he is surrounded every day by three languages: English and Danish at home, and German all day at nursery. More confusingly still, the three languages are closely related: is it bread, Brot or brød? Apple, Apfel or æble? House, Haus or hus? The earthy words in English are mostly Germanic, meaning these triplets are coming up in his world all the time.
 
