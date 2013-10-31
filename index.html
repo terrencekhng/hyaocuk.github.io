@@ -7,7 +7,6 @@ title: Terence-Ng
 	<ul class="posts">
 		{% for post in site.posts %}
 	<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-	<!--<div class="excerpt">{{ post.content | split:'<!-- more -->' | first }}</div>-->
 	<div class="excerpt">{{ post.excerpt }}</div>
 	<hr />
 		{% endfor %}
