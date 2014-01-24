@@ -1,3 +1,32 @@
-markdown: rdiscount
-excerpt_separator: <!-- more -->
+# Dependencies
+markdown: redcarpet
 pygments: true
+
+# Permalink
+permalink: pretty
+
+# Setup
+paginate: 5
+
+excerpt_separator: "<separator>"
+
+author:
+  name: 'Terence Ng'
+
+title: Terence Ng
+tagline: 'hyaocuk dot net'
+url: http://hyaocuk.net
+
+# Custom variables
+github:
+  repo: https://github.com/hyaocuk
+
+
+jekyll:
+  repo: https://github.com/jekyll/jekyll
+
+hyde:
+  repo: https://github.com/poole/hyde
+
+
+excerpt_separator: "<separator>"
