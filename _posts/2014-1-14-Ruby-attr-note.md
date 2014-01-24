@@ -3,13 +3,9 @@ layout: post
 title: Ruby 中 attr, attr_reader, attr_writer, attr_accessor 的用法记录
 ---
 
-{{ page.title }}
-================
-
-<p class="meta">Jan 14 2014, Guangzhou</p>
-
 其实对于 `attr` 这几个关键字的用法都是通过搜索 Ruby 中实例变量了解到的。先撇开实例变量不说，我们来说说 `attr` 的用法吧，其实 attr 基本上类似我们面向对象中 setter 和 getter。
-<!-- more -->
+
+<separator>
 
 当我们定义一个类的时候，如果我们使用 Java 的话，我们可能会这样做:
 
@@ -28,6 +24,7 @@ title: Ruby 中 attr, attr_reader, attr_writer, attr_accessor 的用法记录
 
 ```
 Apple
+
 Not Orange
 ```
 
