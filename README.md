@@ -1,6 +1,4 @@
 hyaocuk.github.io
 =================
 
-geek loves git!
-
-Hey there!
+**Hi There**, welcome to my blog!
