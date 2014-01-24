@@ -70,6 +70,13 @@ html {
   }
 }
 
+/* Sidebar avatar */
+.avatar{
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+} 
+
 /* Sidebar links */
 .sidebar a {
   color: #fff;
