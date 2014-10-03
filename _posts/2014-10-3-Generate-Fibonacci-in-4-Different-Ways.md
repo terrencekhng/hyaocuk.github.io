@@ -3,7 +3,7 @@ layout: post
 title: Generate Fibonacci Number in 4 Ways
 ---
 
-Recently when I searched "Dynamic Programming(DP for short)" on [YouTube]{http://youtu.be/OQ5jsbhAv_M} I found a super inspired video about the core thinking of DP and it takes some of the most 
+Recently when I searched "Dynamic Programming(DP for short)" on YouTube I found a super inspired video about the core thinking of DP and it takes some of the most 
 classical examples as Fibonacci and shortest path and so on. 
 
 <separator>
