@@ -3,7 +3,7 @@ layout: post
 title: Generate Fibonacci Number in 4 Ways
 ---
 
-Recently when I searched "Dynamic Programming(DP for short)" on YouTube I found a super inspired video about the core thinking of DP and it takes some of the most 
+Recently when I searched "Dynamic Programming(DP for short)" on [YouTube]{http://youtu.be/OQ5jsbhAv_M} I found a super inspired video about the core thinking of DP and it takes some of the most 
 classical examples as Fibonacci and shortest path and so on. 
 
 <separator>
@@ -38,5 +38,7 @@ Naturally I would think about that every single Fibonacci number is only calcuat
 And everytime we replace the never-to-be-used one, for example, the last but two, but it's a little trick here is we have to be careful with the index of the array.
 
 {% gist adbc7849b37b6e57e050 %}
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/OQ5jsbhAv_M" frameborder="0" allowfullscreen></iframe>
 
 hoo..., need to take a rest!
