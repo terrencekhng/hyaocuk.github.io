@@ -6,6 +6,7 @@ title: A Little Bit About Doctype
 As we can imply from the name **doctype**, it't the type of the document that's going to be treated by the User Agents, it appears above the `<html>` tag.
 
 There was a time I was creating a new HTML file for IE and when I run the page something unexpected happened, the divs I had originally placed correctlly were in a goddamned mess. What caused this is IE was set to 'quirks mode' automatically, after I selected 'IE 8 document mode'(no joking)  everything were back on the way again. So what made IE choose the 'quirks mode' for me even I had forced IE to treat it using 'IE 8', is I forgot to add the **doctype** at the beginning of the document.
+<separator>
 
 "The doctype also serves to make the browser render the page in "standards mode". In standards mode, browsers try to render the page according to the CSS specifications, in effect trusting that the person who created the document knew what they were doing.
 
