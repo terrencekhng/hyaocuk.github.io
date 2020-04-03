@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<title>Beating heart!</title>
+<style>
+	.back {
+		background: linear-gradient(30deg, #e66465, #9198e5);
+		margin: 0;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		padding: 0;
+		position: fixed;
+		animation-name: backdiv;
+		animation-duration: 1s;
+		animation-iteration-count: infinite;
+		animation-fill-mode: forwards;
+	}
+
+	.heart {
+		background: #ffc0cb;
+		width: 100px;
+		height: 100px;
+		margin: auto;
+		top: 0;
+    	right: 0;
+    	bottom: 0;
+    	left: 0;
+		position: absolute;
+		transform: rotate(-45deg);
+		animation-name: beat;
+		animation-duration: 1s;
+		animation-iteration-count: infinite;
+	}
+
+	.heart:after {
+		content: '';
+		background-color: #ffc0cb;
+		width: 100px;
+		height: 100px;
+		position: absolute;
+    	top: 0px;
+    	left: 50px;
+    	border-radius: 50%;
+    	animation-name: beat_color;
+    	animation-duration: 1s;
+    	animation-iteration-count: infinite;
+	}
+
+	.heart:before {
+		content: '';
+		background-color: #ffc0cb;
+		width: 100px;
+		height: 100px;
+		position: absolute;
+    	top: -50px;
+    	left: 0px;
+    	border-radius: 50%;
+    	animation-name: beat_color;
+    	animation-duration: 1s;
+    	animation-iteration-count: infinite;
+	}
+
+	.love-words-container {
+		position: absolute;
+		margin: auto;
+		right: 0;
+		left: 0;
+		top: 100px;
+		height: 80px;
+		width: 100%;
+	}
+
+	.love-words-container.second {
+		bottom: -200px;
+	}
+
+	.love-words {
+		color: #fff;
+		text-align: center;
+		font-size: 52px;
+	}
+
+	.love-content {
+		color: #fff;
+		text-align: center;
+		font-family: Helvitica, sans-serif;
+		font-size: 20px;
+	}
+
+	@keyframes backdiv {
+		50% {
+			background: linear-gradient(20deg, #C53D3D, #fe78e5);
+			opacity: 80%;
+		}
+	}
+
+	@keyframes beat {
+		0% {
+			transform: scale(1) rotate(-45deg);
+		}
+		50% {
+			transform: scale(1.2) rotate(-45deg);
+			background-color: #FF8BA0;
+		}
+	}
+
+	@keyframes beat_color {
+		0% {
+			background-color: #ffc0cb;
+		}
+		50% {
+			background-color: #FF8BA0;
+		}
+	}
+
+
+
+</style>
+<body>
+	<main>
+		<div class="back"></div>
+			<div class="love-words-container">
+			<h1 class="love-words">Esther & Terence</h1>
+		</div>
+	
+		<div class="heart"></div>
+
+		<div class="love-words-container second">
+			<h1 class="love-words">Babe, I love you, ALWAYS!</h1>
+			<p class="love-content">This is the first project I crafted for <em><strong>us</strong></em>! ❤</p>
+		</div>
+	</main>
+</body>
+</html>
