@@ -1,7 +1,66 @@
 <!DOCTYPE html>
 <html>
-<title>Beating heart!</title>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Beating heart!</title>
 <style>
+
+	body, html, main {
+		padding: 0;
+		margin: 0;
+	}
+
+	@media only screen and (max-width: 413px) {
+		.love-words {
+			margin-top: 4em;
+		}
+		.love-words.second {
+			margin-top: 4em;
+		}
+	}
+
+	@media only screen and (min-width: 414px) and (max-width: 620px) {
+		.heart {
+			/*top: 20em;*/
+		}
+		.love-words {
+			font-size: 2em;
+			margin-top: 4em;
+		}
+		.love-words.second {
+			font-size: 2em;
+			margin-top: 5em;
+		}
+
+	}
+
+	@media only screen and (min-width: 621px) {
+		.heart {
+			top: 15em;
+		}
+		.love-words {
+			font-size: 48px;
+		}
+		.love-words.second {
+			font-size: 48px;
+			margin-top: 2em;
+		}
+	}
+
+	@media only screen and (min-width: 1200px) {
+		.heart {
+			top: 0;
+			bottom: 0;
+		}
+		.love-words {
+			font-size: 52px;
+		}
+		.love-words.second {
+			font-size: 52px;
+			margin-top: 3em;
+		}
+	}
+
 	.back {
 		background: linear-gradient(30deg, #e66465, #9198e5);
 		margin: 0;
@@ -12,9 +71,10 @@
 		padding: 0;
 		position: fixed;
 		animation-name: backdiv;
-		animation-duration: 1s;
+		animation-duration: 0.5s;
 		animation-iteration-count: infinite;
 		animation-fill-mode: forwards;
+		/*animation-timing-function: ease-in;*/
 	}
 
 	.heart {
@@ -61,35 +121,49 @@
     	animation-iteration-count: infinite;
 	}
 
+	.container {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		align-items: center;
+	}
+
 	.love-words-container {
-		position: absolute;
+		position: relative;
 		margin: auto;
 		right: 0;
 		left: 0;
-		top: 100px;
-		height: 80px;
+		top: 0;
 		width: 100%;
+		height: 50%;
 	}
 
 	.love-words-container.second {
-		bottom: -200px;
+		/*bottom: -200px;*/
+		align-items: center;
 	}
 
 	.love-words {
 		color: #fff;
 		text-align: center;
-		font-size: 52px;
+		width: 100%;
+	}
+
+	.love-words.second {
+		/*margin-left: 1em;
+		margin-right: 1em;*/
 	}
 
 	.love-content {
 		color: #fff;
 		text-align: center;
 		font-family: Helvitica, sans-serif;
-		font-size: 20px;
 	}
 
 	@keyframes backdiv {
-		50% {
+		20% {
 			background: linear-gradient(20deg, #C53D3D, #fe78e5);
 			opacity: 80%;
 		}
@@ -117,19 +191,24 @@
 
 
 </style>
+</head>
+
 <body>
 	<main>
 		<div class="back"></div>
+		<div class="container">
 			<div class="love-words-container">
-			<h1 class="love-words">Esther & Terence</h1>
-		</div>
-	
-		<div class="heart"></div>
+				<h1 class="love-words">Esther & Terence</h1>
+			</div>
 
-		<div class="love-words-container second">
-			<h1 class="love-words">Babe, I love you, ALWAYS!</h1>
-			<p class="love-content">This is the first project I crafted for <em><strong>us</strong></em>! ❤</p>
+			<div class="love-words-container second">
+				<h1 class="love-words second">Babe, I love you, ALWAYS!</h1>
+				<p class="love-content">This is the first project I crafted for <em><strong>us</strong></em>! ❤</p>
+			</div>
 		</div>
+		
+
+		<div class="heart"></div>
 	</main>
 </body>
 </html>
