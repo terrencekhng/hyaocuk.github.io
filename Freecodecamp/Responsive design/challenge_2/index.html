@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+  <title></title>
+</head>
+  <body id="body">
+    <header id="header">
+      <h1 id="title">WILDLIFE AS CANON SEES IT</h1>
+      <p id="description">
+        Safe zone. The snowy owl allows no predators near its nest, and other birds take advantage of this safety by moving in nearby.
+      </p>
+    </header>
+    <main id="main">
+      <div id="form-div">
+        <form id="survey-form">
+        <div class="control-div">
+          <label for="name" id="name-label">Name: 
+        </label>
+        <input id="name" type="text" required placeholder="Please input your name.">
+        </div>
+          <div class="control-div">
+            <label for="email" id="email-label">Email: </label>
+          <input id="email" type="email" required placeholder="Pleae input your email address.">
+          </div>
+          <div class="control-div">
+            <label for="number" id="number-label">Age: </label>
+            <input type="number" id="number" placeholder="Please input your age." min=0 max=120 required>
+          </div>
+          <div class="control-div">
+            <label for="dropdown" id="dropdown-label">Sex: </label>
+            <select name="gender" id="dropdown" required>
+              <option disbaled selected value>Please select your gender.</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+          <div class="control-div">
+            <label for="" id="radio-label">What is your COVID-19 test result?</label>
+            <label for="positive">
+              <input type="radio" value="positive" name="text-result" id="positie">Positive
+            </label>
+            <label for="negative">
+              <input type="radio" value="negative" name="text-result" id="negative">Negative
+            </label>
+            <label for="unknown">
+              <input type="radio" value="unknown" name="text-result" id="unknown">Unknown
+            </label>
+          </div>
+          <div class="control-div">
+            <label for="" id="checkbox-label">Do you have the following symptoms?</label>
+            <label for="fever">
+              <input type="checkbox" id="fever" value="fever" name="symptoms">Fever
+            </label>
+            <label for="chills">
+              <input type="checkbox" id="chills" value="chills" name="symptoms">Chills
+            </label>
+            <label for="headache">
+              <input type="checkbox" id="headache" value="headache" name="symptoms">Headache
+            </label>
+            <label for="stuffy-nose">
+              <input type="checkbox" id="stuffy-nose" value="stuffy-nose" name="symptoms">Stuffy nose
+            </label>
+          </div>
+          <div class="control-div">
+            <textarea name="additional-info" id="additional-info" cols="30" rows="10" placeholder="Please input your additional information here."></textarea>
+          </div>
+          <hr id="form-separate">
+          <div class="submit-div">
+            <button class="button" id="reset" type="reset">Reset</button>
+            <button class="button" id="submit" type="submit">Submit</button>
+          </div>
+      </form>
+      </div>
+      
+    </main>
+    <footer id="footer">
+      
+    </footer>
+  </body>
+</html>
+
+
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+
+
