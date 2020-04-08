@@ -1,8 +1,17 @@
+
+
+/*@media screen and (max-width: 801px) {
+  #form-div {
+    width: 80%;
+  }
+}*/
+
 #body {
   background: linear-gradient(30deg, hsl(20, 40%, 30%), hsl(60, 10%, 10%));
   color: #eee;
   height: 100%;
-  font-family: Helvitica, sans-serif
+  font-family: Helvitica, sans-serif;
+  margin: 0;
 }
 
 #header {
@@ -16,6 +25,11 @@
   font-family: Palatino, serif;
   font-size: 3em;
   font-weight: 900;
+  margin: 0 1em;
+}
+
+#description {
+  margin: 2em 2em 1em 2em;
 }
 
 label {
@@ -23,11 +37,13 @@ label {
   font-size: 1em;
   display: block;
   font-weight: 900;
+  width: 100%;
 }
 
 input, select, textarea {
   margin-top: 5px;
-  width: 700px;
+  width: 95%;
+  max-width: 700px;
   border: none;
   padding: 10px 10px;
   border-radius: 3px;
@@ -39,7 +55,8 @@ input, select, textarea {
 /* specific control style */
 select {
   height: 38px;
-  width: 720px;
+  width: 100%;
+  max-width: 720px;
 }
 
 input[type="radio"], input[type="checkbox"] {
@@ -49,6 +66,7 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 .submit-div {
+  width: inherit;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -99,7 +117,12 @@ p {
 }
 
 .control-div {
+  width: inherit;
   margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .control-div:first-of-type {
@@ -108,9 +131,13 @@ p {
 
 #form-separate {
   margin: 50px 0px;
+  background-color: #fff;
+  height: 2px;
+  width: 90%;
 }
 
 #form-div {
+  width: 80%;
   max-width: 800px;
   background-color: hsl(60, 10%, 10%);
   opacity: 80;
@@ -120,4 +147,20 @@ p {
   align-items: center;
   flex-direction: column;
   margin-bottom: 10em;
+}
+
+#survey-form {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  #form-div {
+    width: 95%;
+    margin-bottom: 1em;
+    padding: 50px 10px;
+  }
 }
