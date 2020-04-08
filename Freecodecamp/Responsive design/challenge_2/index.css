@@ -19,6 +19,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-top: 3em;
 }
 
 #title {
@@ -37,12 +38,12 @@ label {
   font-size: 1em;
   display: block;
   font-weight: 900;
-  width: 100%;
+  width: 85%;
 }
 
 input, select, textarea {
   margin-top: 5px;
-  width: 95%;
+  width: 80%;
   max-width: 700px;
   border: none;
   padding: 10px 10px;
@@ -55,7 +56,7 @@ input, select, textarea {
 /* specific control style */
 select {
   height: 38px;
-  width: 100%;
+  width: 85%;
   max-width: 720px;
 }
 
@@ -70,6 +71,7 @@ input[type="radio"], input[type="checkbox"] {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .button {
@@ -138,7 +140,7 @@ p {
 
 #form-div {
   width: 80%;
-  max-width: 800px;
+  max-width: 800px; 
   background-color: hsl(60, 10%, 10%);
   opacity: 80;
   border-radius: 8px;
@@ -159,8 +161,19 @@ p {
 
 @media screen and (max-width: 800px) {
   #form-div {
-    width: 95%;
+    width: 98%;
     margin-bottom: 1em;
     padding: 50px 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .submit-div {
+    flex-direction: column;
+    height: 8em;
+    justify-content: space-between;
+  }
+  .button {
+    max-width: 5em;
   }
 }
