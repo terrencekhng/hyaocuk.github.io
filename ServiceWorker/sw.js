@@ -1,15 +1,11 @@
-self.addEventListener('install', function(event) {
+self.addEventListener( 'install', event => {
     event.waitUntil(
-        caches.open('v1').then(function(cache) {
-            return cache.addAll([
-                '/',
-                '/index.html',
-                '/index.js'
-            ])
-        })
+        caches.open( 'v1' ).then( cache => {
+            return cache.addAll( [
+                './',
+                './index.html',
+                './index.js'
+            ] )
+        } )
     )
-})
-
-self.addEventListener('fetch', function(event) {
-    
-})
+} )
