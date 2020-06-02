@@ -2,9 +2,9 @@ self.addEventListener('install', function(event) {
     event.waitUntil(
         caches.open('v1').then(function(cache) {
             return cache.addAll([
-                '/ServiceWork/',
-                '/ServiceWork/index.html',
-                '/ServiceWork/index.js'
+                '/',
+                '/index.html',
+                '/index.js'
             ])
         })
     )
