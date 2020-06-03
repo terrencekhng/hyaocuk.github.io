@@ -15,3 +15,10 @@ self.addEventListener( 'install', event => {
 self.addEventListener('activate', event => {
     console.log('Activate succesfully!');
 })
+
+self.addEventListener('fetch', event => {
+    console.log('Event request: ', event.request);
+    event.respondWith(
+        caches.match(event.request)
+    )
+})
